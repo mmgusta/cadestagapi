@@ -1,0 +1,1 @@
+insert into Situacao_Atual(id,descricao)values(1,'Estagiario'),(2,'Junior')
