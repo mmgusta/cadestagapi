@@ -1,1 +1,1 @@
-insert into Situacao_Atual(id,descricao)values(1,'Estagiario'),(2,'Junior')
+insert into Situacao_Atual(id,descricao)values(1,'Estagio'),(2,'Junior'),(3,'Futuro Contratado'),(4, 'Contratado Provisório'),(5,'Transferida')
