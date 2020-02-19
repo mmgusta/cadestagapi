@@ -47,6 +47,8 @@ public class CargaService {
 		
 		Resource resource = new ClassPathResource("Cadastro_unico.xlsx");
 		
+		System.out.println("inicio da carga batch");
+		
 		try {
 			File arquivoEstags = resource.getFile();
 
