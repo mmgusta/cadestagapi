@@ -57,6 +57,8 @@ public class CargaService {
 				
 				//sheet.removeRow(sheet.getRow(0));
 				
+				System.out.println("inicializando carga");
+				
 				DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 				
 				sheet.forEach(row -> {
