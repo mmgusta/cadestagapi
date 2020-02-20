@@ -53,10 +53,10 @@ public class CargaService {
 		
 		System.out.println("inicio da carga batch");
 		
-		Resource resource = new ClassPathResource("estagscsv.csv");
+		//Resource resource = new ClassPathResource("estagscsv.csv");
 		
 		try {
-			File arquivoCsv = resource.getFile();
+			File arquivoCsv = new File("src/main/resources/estagscsv.csv");
 			
 			CSVReader csv = new CSVReader(new FileReader(arquivoCsv));
 			
