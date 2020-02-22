@@ -1,0 +1,5 @@
+insert into Situacao_Atual(id,descricao)values(1,'Estagio')
+insert into Situacao_Atual(id,descricao)values(2,'Junior')
+insert into Situacao_Atual(id,descricao)values(3,'Futuro Contratado')
+insert into Situacao_Atual(id,descricao)values(4, 'Contratado Provisório')
+insert into Situacao_Atual(id,descricao)values(5,'Transferida')
